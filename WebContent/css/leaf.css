@@ -1,0 +1,326 @@
+﻿@CHARSET "UTF-8";
+
+*{
+	margin: 0px;
+	font-family: sans-serif;
+
+	
+}
+a{
+	text-decoration: none;
+}
+
+/*///////////////////////////////header/////////////////////////*/
+.header {
+	width: 100%;
+	height: 120px;
+    color: white;
+    padding: 5px;
+	text-decoration: none;
+	background-image: url("/img/005.jpg");
+	background-position: 100%;
+
+	
+}
+.header ul{
+	position:absolute; top:80px; right: 50px;
+	margin: 12px;	
+	float: right;
+}
+.header ul li{
+	list-style: none;
+	padding-right: 30px;
+	float: left;
+	
+}
+.header ul li a {
+	width: 90px;
+	/*display:block;  이라인요소를 블록요소로 바꾸기(width가 적용될수 있도록) */
+	text-decoration: none;
+	padding: 5px;
+    font-weight: bold;
+	color: #fff;
+	
+}
+.header ul li a:HOVER{
+	text-shadow: #4b7d9b 1px 1px 1px;
+	width: 200px;
+	background-color: #a4c1d3;
+	color: #fff;
+}
+
+.city {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+} 
+.main{
+	
+    width: 100%;
+    height: 800px;
+    padding: 3px; 	 
+	background-image: url("/img/hj.jpg");
+	background-repeat: repeat x ; 
+	text-decoration: none;	
+   
+}
+.main div{
+	color: #005e75;
+	text-shadow: #ffffff 2px 2px 2px ;  
+	
+}
+
+.nav{
+	padding: 5px;
+    width: 200px;
+    height: 600px;
+    position:absolute; top: 165px; right: 0px;
+	text-decoration: none;
+  	font-size: 15px;
+	font-weight: bold; 
+	/*text-shadow: #2a4556 1px 1px 1px;*/
+}
+#m a{
+	text-decoration: none;
+	
+}
+#mymenu {
+	position: static; top: 150px; right: 50px;
+}
+
+#mymenu ul{
+	margin: 10px;
+	float: right;	
+	
+}
+#mymenu  ul li{
+	
+	list-style: none;
+	padding-right: 10px;
+	display: inline;
+	
+}
+#mymenu ul li a{
+	color: #ffffff;
+	text-shadow: #5279c6 2px 2px 2px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+#chatting{
+	width:95%;
+	border-radius: 5px;	
+	background-color: #a4c1d3;
+	border: 1px solid #5279c6;
+	float: right; 
+}
+#clist{
+	color:#005e75;
+	font-size: 14px;
+	height: 220px;
+	overflow: auto;
+	padding: 5px;
+	top: 100px;	
+}
+#msg{
+	width:90%;
+	border-radius: 5px;
+	border-weight: 4px;
+}
+
+.nav login{
+    height:30px;
+    background-color:#a4c1d3;
+    padding:5px;
+    top: 300px;	      
+}
+
+.footer {	
+	width:100%;
+	height:100px;
+	background-color: #a4c1d3;
+	color : white;
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	background-position: 100%;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+#imagemap {
+	margin: 0px auto;
+	padding: 0px;
+	background: transparent url(img/011.png) top left no-repeat;
+	width: 600px;
+	height: 400px;
+	position: relative;
+}
+#imagemap li {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	list-style: none;
+	font-size: 14px;
+}
+#imagemap a {
+	position: absolute;
+}
+#imagemap a span {
+	display: none;
+}
+
+/* 北海道 */
+#hokkaido {
+	top: 0px;
+	left: 333px;
+}
+#hokkaido a {
+	width: 300px;
+	height: 131px;
+}
+#hokkaido a:hover {
+	background: url(img/011.png) -333px -400px no-repeat;
+}
+
+/* 東北 */
+#touhoku {
+	top: 128px;
+	left: 253px;
+}
+#touhoku a {
+	width: 180px;
+	height: 145px;
+}
+#touhoku a:hover {
+	background: transparent url(img/011.png) -253px -928px no-repeat;
+}
+
+/* 北陸・甲信越 */
+#hokuriku {
+	top: 208px;
+	left: 202px;
+}
+#hokuriku a {
+	width: 128px;
+	height: 95px;
+}
+#hokuriku a:hover {
+	background: transparent url(img/011.png) -202px -1408px no-repeat;
+}
+
+/* 関東 */
+#kanto {
+	top: 252px;
+	left: 280px;
+}
+#kanto a {
+	width: 68px;
+	height: 148px;
+}
+#kanto a:hover {
+	background: transparent url(img/011.png) -280px -1852px no-repeat;
+}
+
+/* 東海 */
+#tokai {
+	top: 260px;
+	left: 202px;
+}
+#tokai a {
+	width: 88px;
+	height: 100px;
+}
+#tokai a:hover {
+	background: transparent url(img/011.png) -202px -2260px no-repeat;
+}
+
+/* 関西 */
+#kansai {
+	top: 261px;
+	left: 171px;
+}
+#kansai a {
+	width: 62px;
+	height: 87px;
+}
+#kansai a:hover {
+	background: transparent url(img/011.png) -171px -2661px no-repeat;
+}
+
+/* 中国 */
+#chugoku {
+	top: 235px;
+	left: 85px;
+}
+#chugoku a {
+	width: 100px;
+	height: 75px;
+}
+#chugoku a:hover {
+	background: transparent url(img/011.png) -85px -3035px no-repeat;
+}
+
+/* 四国 */
+#shikoku {
+	top: 300px;
+	left: 107px;
+}
+#shikoku a {
+	width: 75px;
+	height: 50px;
+}
+#shikoku a:hover {
+	background: transparent url(img/011.png) -107px -3500px no-repeat;
+}
+
+/* 九州 */
+#kyushu {
+	top: 265px;
+	left: 24px;
+}
+#kyushu a {
+	width: 88px;
+	height: 135px;
+}
+#kyushu a:hover {
+	background: transparent url(img/011.png) -24px -3865px no-repeat;
+}
+
+/* 沖縄 */
+#okinawa {
+	top: 0px;
+	left: 0px;
+}
+#okinawa a {
+	width: 298px;
+	height: 155px;
+}
+#okinawa a:hover {
+	background: transparent url(img/011.png) 0px -4000px no-repeat;
+}
+
+/* #area {
+	margin: 20px auto;
+	width: 600px;
+}
+#area li {
+	float:left;
+	text-indent:-5px;
+	font-size: 14px;
+	font-family: sans-serif;
+	padding: 0 30px 0 0;
+}
+#area li a {
+	text-decoration: none;
+	color: #2d67ee;
+}
+#area li a:hover {
+	text-decoration: underline;
+	color: #f1710f;
+} */
